@@ -1,7 +1,9 @@
 // 1 спосіб
+
 // export function showMessage(message: string): void{
 //   console.log (message);
 // }
+
 // 2 спосіб
 export function showMessage(message: string): string {
   return message;
@@ -14,3 +16,4 @@ export function calc(num1: number, num2: number): number {
 export function customError(): never {
   throw new Error("Error");
 }
+export {};

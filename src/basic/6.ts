@@ -30,3 +30,4 @@ export const poly: UserPoly = {
   age: 30,
   email: "john@example.com",
 };
+export {};
