@@ -5,11 +5,13 @@ interface User {
   status: "open" | "close";
   details: DateInt;
 }
+
 interface DateInt {
   createAt: Date;
   updateAt: Date;
 }
-export const page1 = {
+
+export const page1: User = {
   title: "The awesome page",
   likes: 100,
   accounts: ["Max", "Anton", "Nikita"],
@@ -20,10 +22,13 @@ export const page1 = {
   },
 };
 
-export const page2 = {
+export const page2: User = {
   title: "Python or Js",
   likes: 5,
   accounts: ["Alex"],
   status: "close",
+  details: {
+    createAt: new Date("2021-02-01"),
+    updateAt: new Date("2021-06-01"),
+  },
 };
-export {};

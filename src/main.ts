@@ -19,12 +19,6 @@ console.log(`2.ts: ${person}`);
 console.log(`3.ts: variable = ${variable}, status = ${status} `);
 console.log(`4.ts: ${showMessage("Error")}, ${calc(202, 202)}, ${customError}`);
 
-const test: DayOfWeek[] = [
-  DayOfWeek.Monday,
-  DayOfWeek.Saturday,
-  DayOfWeek.Sunday,
-];
-
 console.log(
   `5.ts: Monday - ${isWeekend(DayOfWeek.Monday)}, Saturday - ${isWeekend(
     DayOfWeek.Saturday

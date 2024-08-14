@@ -7,3 +7,4 @@ export const callback = (a: number): number => {
 };
 
 export {};
+console.log(age, username, toggle, empty);
