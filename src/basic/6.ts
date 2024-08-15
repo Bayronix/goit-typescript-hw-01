@@ -2,7 +2,7 @@ interface UserMango {
   name: string;
   age: number;
   email: string;
-  address: Address;
+  address?: Address;
 }
 
 interface Address {
